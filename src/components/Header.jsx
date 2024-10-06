@@ -7,12 +7,10 @@ export default function Header() {
                 <div>
                     <h1 className="font-semibold">luiz</h1>
                 </div>
-                <nav>
-                    <ul className="flex gap-7">
-                        <li className="duration-300 hover:scale-105"><NavLink to='/' >home</NavLink></li>
-                        <li className="duration-300 hover:scale-105"><NavLink to='/about' >about</NavLink></li>
-                        <li className="duration-300 hover:scale-105"><NavLink to='/projects' >projects</NavLink></li>
-                    </ul>
+                <nav className="flex gap-7">
+                    <NavLink to='/' className="duration-300 hover:scale-105">home</NavLink>
+                    <NavLink to='/about' className="duration-300 hover:scale-105">about</NavLink>
+                    <NavLink to='/projects' className="duration-300 hover:scale-105">projects</NavLink>
                 </nav>
             </header>
         </>

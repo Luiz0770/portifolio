@@ -9,6 +9,8 @@
 
 body {
     font-family: 'Clash Grotesk', sans-serif;
+    background-color: #1a202c;
+    color: white
 }
 
 @tailwind base;
