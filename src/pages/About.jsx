@@ -1,7 +1,11 @@
+import CardAbout from "../components/CardAbout";
+
 export default function About() {
     return (
-        <>
-            <h2>About</h2>
-        </>
+        <main>
+            <div className="container mx-auto p-4 h-screen">
+                <CardAbout/>
+            </div>
+        </main>
     );
 }

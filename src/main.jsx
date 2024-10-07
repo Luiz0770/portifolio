@@ -9,6 +9,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 import Projects from './pages/Projects.jsx'
+import ProjetoAbout from './pages/ProjetoAbout.jsx'
 
 // Import Swiper
 import { register } from 'swiper/element/bundle'
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/projects", element: <Projects/> },
-      { path: "/projeto/:id", element: <Projects/> },
+      { path: "/projeto/:id", element: <ProjetoAbout/> },
       { path: "*", element: <PageNotFound /> },
     ]
   }
