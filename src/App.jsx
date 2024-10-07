@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <Header />
       <Outlet />
       <Footer />
