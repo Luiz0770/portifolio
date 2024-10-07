@@ -4,33 +4,33 @@ function Cards() {
 
   const services = [
     {
-      title: "Front-end Development",
+      title: "Desenvolvimento Front-end",
       description:
-        "Creating stellar user interfaces and web experiences using the latest technologies.",
+        "Criando interfaces de usuário e experiências web incríveis usando as tecnologias mais recentes.",
       icon: LuCode2,
     },
     {
-      title: "UX Design",
+      title: "Design UX",
       description:
-        "Building intuitive, user-centric designs that drive engagement and conversion.",
+        "Construindo designs intuitivos e centrados no usuário que aumentam o engajamento e a conversão.",
       icon: LuFrame,
     },
     {
-      title: "SEO Optimization",
+      title: "Otimização SEO",
       description:
-        "Enhancing your website's visibility in search engines for increased organic traffic.",
+        "Aumentando a visibilidade do seu site nos motores de busca para aumentar o tráfego orgânico.",
       icon: LuSearchCheck,
     },
     {
-      title: "Responsive Design",
+      title: "Design Responsivo",
       description:
-        "Designing websites that look and perform equally well on all devices and screen sizes.",
+        "Desenvolvendo sites que parecem e funcionam bem em todos os dispositivos e tamanhos de tela.",
       icon: LuMonitorSmartphone,
     },
     {
-      title: "Backend Development",
+      title: "Desenvolvimento Backend",
       description:
-        "Developing robust, scalable server-side logic for a wide range of web applications.",
+        "Desenvolvendo lógica de servidor robusta e escalável para uma ampla gama de aplicações web.",
       icon: LuEye,
     },
   ];
@@ -40,17 +40,17 @@ function Cards() {
       <section id="cards">
         <div className="my-24 flex flex-col justify-start space-y-10">
           <div className="grid items-center gap-1.5 md:grid-cols-2 xl:grid-cols-3">
+
             <div className="flex flex-col py-6 xl:p-6">
-              <h2 className="text-4xl font-medium tracking-tight">
-                Need more info?
+              <h2 className="text-4xl font-medium">
+                Precisa de mais
                 <br />
                 <span>
-                  I got you.
+                  Informacoes
                 </span>
               </h2>
               <p className="mt-2">
-                Here are some of the services I offer. If you have any
-                questions, feel free to reach out.
+                Aqui estão alguns dos serviços que ofereço. Se você tiver alguma dúvida, sinta-se à vontade para entrar em contato.
               </p>
             </div>
 

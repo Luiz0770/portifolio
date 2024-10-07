@@ -1,26 +1,28 @@
 export default function CardAbout() {
 
     const infos = [
-        { label: "Years of experience", value: "3+" },
-        { label: "Technologies mastered", value: "5+" },
-        { label: "Companies worked with", value: "15+" },
-      ];
+        { text: "Anos de experiencia", valor: "3+" },
+        { text: "Tecnologias Dominadas", valor: "5+" },
+        { text: "Participacoes em projetos", valor: "15+" },
+    ];
 
     return (
         <>
             <section id="cardAbout">
                 <div className="my-14 max-w-6xl flex flex-col justify-start space-y-10">
-                    <h2 className="py-16 pb-2 text-3xl font-light leading-normal tracking-tighter xl:text-[40px]">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quo consequatur obcaecati quisquam quibusdam, minus quod? Quam, corporis! Ex, dicta repellendus cupiditate facere dolores iste deserunt, recusandae eum illum ad enim officiis! Exercitationem pariatur, suscipit voluptatibus aspernatur illum ut beatae quis accusantium corporis sequi nesciunt ullam! Cumque tempora voluptatibus eum.
-                    </h2>
+                    <div className="py-16 pb-2 ">
+                        <h2 className="text-blue-500 text-3xl">Sobre Min</h2>
+                        <h3 className="text-3xl font-light leading-normal tracking-tighter xl:text-[40px]">
+                        Sou Luiz Felipe Coelho Ramos, tenho 18 anos e sou um estudante de programação. Me formei na escola técnica de TI da FIAP e, atualmente, estou cursando Engenharia de Software na FIAP, dando continuidade à minha jornada no mundo da tecnologia e programação.                        </h3>
+                    </div>
                     <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
                         {infos.map((info) => (
-                            <div key={info.label} className="flex flex-col items-center text-center xl:items-start xl:text-start">
-                                <span className="text-4xl font-semibold xl:text-6xl">
-                                    {info.value}
+                            <div key={info.text} className="flex flex-col items-center text-center xl:items-start xl:text-start">
+                                <span className="text-blue-500 text-4xl font-semibold xl:text-6xl">
+                                    {info.valor}
                                 </span>
                                 <span className="tracking-tight xl:text-lg">
-                                    {info.label}
+                                    {info.text}
                                 </span>
                             </div>
                         ))}

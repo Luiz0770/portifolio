@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Unqueue",
+        "description": "E-commerce platform for selling digital products",
+        "image": "../assets/imgs/unqueue.webm",
+        "href": "/projeto/Unqueue"
+    },
+    {
+        "title": "InfiniteVPS",
+        "description": "High performance VPS hosting solution",
+        "image": "../assets/imgs/infinitevps.webm",
+        "href": "/projeto/InfiniteVPS"
+    },
+    {
+        "title": "TranslateBot",
+        "description": "Powerful Multilingual Translation Bot for Discord",
+        "image": "../assets/imgs/translate_bot.webm",
+        "href": "/projeto/TranslateBot"
+    },
+    {
+        "title": "Wrona",
+        "description": "Robotics-focused technology company",
+        "image": "../assets/imgs/wrona.jpeg",
+        "href": "/projeto/Wrona"
+    },
+    {
+        "title": "This website",
+        "description": "My personal website",
+        "image": "../assets/imgs/portfolio.webm",
+        "href": "/projeto/Portifolio"
+    }
+]
